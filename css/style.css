@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.sitebar{
+    width: 20%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.573);
+}
+.body__title{
+    color: white;
+    padding: 30px   ;
+}
+.usage__menu{
+    display: flex;
+    column-gap: 30px;
+    padding: 40px;
+}
+.usage__menu:hover{
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+.usage__menu:active{
+    opacity: 0.7;
+}
+.menu__text{
+    color: white;
+    text-decoration: none;
+}
+.box{
+    width: 80%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: aquamarine;
+}
+.search__control{
+    border: 3px solid navy;
+    background-color: #fff;
+    margin-left: 20px;
+}
+.nav__input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.nav__btn{
+    border: none;
+    background-color: #fff;
+}
+.fa-magnifying-glass{
+    padding: 5px;
+    font-size: 25px;
+}
+.btn__group{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border: 3px solid navy;
+}
+.sort{
+    display: flex;
+    column-gap: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+.filter{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.fa-filter{
+    margin-left: 10px;
+}
+.block{
+    overflow-y: scroll;
+    height: 100vh;
+}
+.card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    border: 2px solid rgba(188, 181, 181);
+    padding: 5px;
+}
+.card__img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.card__btn{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}

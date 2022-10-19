@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sitebar">
+        <h2 class="body__title">Dashboard Kit</h2>
+        <div class="usage__menu">
+            <i class="fa-solid fa-globe"></i>
+            <a class="menu__text" href="#">Overview</a>
+        </div>
+        <div class="usage__menu">
+            <i class="fa-solid fa-ticket"></i>
+            <a class="menu__text" href="index.html">Tickets</a>
+        </div>
+        <div class="usage__menu">
+            <i class="fa-solid fa-lightbulb"></i>
+            <a class="menu__text" href="#">Ideas</a>
+        </div>
+        <div class="usage__menu">
+            <i class="fa-solid fa-id-card"></i>
+            <a class="menu__text"  href="#">Contacts</a>
+        </div>
+        <div class="usage__menu">
+            <i class="fa-brands fa-magento"></i>
+            <a class="menu__text" href="#">Agents</a>
+        </div>
+        <div class="usage__menu">
+            <i class="fa-solid fa-newspaper"></i>
+            <a class="menu__text" href="#">Articles</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="nav">
+          <div class="search__control">
+            <input id="search__input" class="nav__input" type="text">
+            <button id="search__btn" class="nav__btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+
+          <div class="btn__group">
+            <i class="fa-solid fa-arrow-up-wide-short"></i>
+            <select class="sort" id="sort">
+              <option value="rightly">rightly</option>
+              <option value="reverse">reverse</option>
+            </select>
+              <i class="fa-solid fa-filter"></i>
+              <select class="filter" name="" id="select">
+                <option value="high">high</option>
+                <option value="low">low</option>
+                <option value="normal">normal</option>
+            </select>   
+          </div>
+        </div>
+        <div id="block" class="block">
+            <div class="card">
+                <img class="card__img" src='https://picsum.photos/200/300' alt="card__img">
+                <h3 class="card__title">Contact Email not Linked</h3>
+                <h3 class="card__name">Tom Cruise</h3>
+                <h3 class="card__date">May 26, 2019</h3>
+                <button class="card__btn">HIGH</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
